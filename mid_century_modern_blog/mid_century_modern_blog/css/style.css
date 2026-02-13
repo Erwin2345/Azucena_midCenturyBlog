@@ -2,8 +2,7 @@
 
 
 p{
-    background-color: #04ADBF;
-    text-align: right;
+    text-align: start;
     font-weight: 400;
     font-size: 15px;
     font-family: 'Lato', sans-serif;
@@ -16,24 +15,35 @@ font-family: 'josefin sans', sans-serif;
 }
 
 h2{
-font-family: 'josefin sans', sans-serif;
+font-family: 'lato', sans-serif;
 font-weight: 600;
-font-size: 18px;
-color: #047F8C;
+font-size: 22.5px
+
 }
 
 h3{
 font-family: 'josefin sans', sans-serif;
 font-weight: 600;
 font-size: 18px;
+color:#047F8C
 }
 
-
+body {
+    background-color: #E2E2E2; /* Light grey background for the content area */
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    line-height: 1.5;
+    border-left: 80px solid #F2A359; /* Orange sidebar as seen in image */
+    border-right: 80px solid #F2A359;
+}
 
 a{
     text-decoration: none;
 }
-
+img{
+ width: 90%;
+ margin-top: 10px;
+}
 aside img {
     width: 50%;
     margin-top: 10px;
@@ -70,7 +80,7 @@ nav{
     margin: 0 15px;
     color: white;
     text-decoration: none;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family:'josefin sans',sans-serif;
     text-transform: uppercase;
 }
 
