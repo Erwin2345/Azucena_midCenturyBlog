@@ -1,10 +1,89 @@
+@import url('https://fonts.googleapis.com');
+
 
 p{
     background-color: #04ADBF;
+    text-align: right;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+h1{
+  font-size: 37px;  
+ font-weight: 600;   
+color: #3a400c;
+font-family: 'josefin sans', sans-serif;
+}
+
+h2{
+font-family: 'josefin sans', sans-serif;
+font-weight: 600;
+font-size: 18px;
+color: #047F8C;
+}
+
+h3{
+font-family: 'josefin sans', sans-serif;
+font-weight: 600;
+font-size: 18px;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+aside img {
+    width: 50%;
+    margin-top: 10px;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 5px 0;
+}
+
+nav a {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #3A400C; /* Dark olive color from image */
+    margin-left: 20px;
+    font-size: 14px;
 }
 
 nav{
     color: #047f8c;
     font-size: 16px;
     font-weight: 600;
+    font-family: 'josefin sans', sans-serif
+}
+
+.social-links a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+footer p {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #047FBC;
+}
+
+footer p a {
+    color: inherit;
+    text-decoration: none;
 }
